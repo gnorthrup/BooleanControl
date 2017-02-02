@@ -1,26 +1,24 @@
-classdef node
+classdef node_class
     properties
         gatetype
         child1
         child2
+        %signal_delay
     end
     methods
-        function f = eval(v)
-            if(gatetype == AND)
-                f = and(eval(child2), eval(child1))
-            else(gatetype == OR)
-                f = or(eval(child2), eval(child1))
-            else(gatetype == NOT)
-                f = not(eval(child1))
+        function f = eval(self, v)
+            if(self.gatetype == AND)
+                f = and(eval(self.child2), eval(self.child1));
+            else if(self.gatetype == OR)
+                f = or(eval(self.child2), eval(self.child1));
+            else if(self.gatetype == NOT)
+                f = not(eval(self.child1));
             else
-                f = v(child1)
+                f = v(self.child1);
             end
+        end
+    end
         end
     end
 end
 
-classdef gatetype
-    enumeration
-        AND, OR, NOT, IDENTITY
-    end
-end
