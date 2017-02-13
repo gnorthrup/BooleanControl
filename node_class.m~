@@ -1,5 +1,6 @@
 classdef node_class
     properties
+        node number
         gatetype
         child1
         child2
@@ -13,13 +14,13 @@ classdef node_class
         end
         function f = eval(self, t, m)
             if(self.gatetype == gatetype.AND)
-                f = and(eval(self.child2,v), eval(self.child1,v));
+                f = and(eval(self.child2,t,m), eval(self.child1,t,m));
             elseif(self.gatetype == gatetype.OR)
-                f = or(eval(self.child2,v), eval(self.child1,v));
+                f = or(eval(self.child2,t,m), eval(self.child1,t,m));
             elseif(self.gatetype == gatetype.NOT)
-                f = not(eval(self.child1,v));
+                f = not(eval(self.child1,t,m));
             else
-                f = m(t, self.child1);
+                f = m(self.child1, t);
             end
         end
     end   

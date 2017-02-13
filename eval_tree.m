@@ -1,4 +1,4 @@
-classdef node_class
+classdef eval_tree
     properties
         gatetype
         child1
@@ -6,10 +6,14 @@ classdef node_class
         %signal_delay
     end
     methods
-        function node = node_class(gt, c1, c2)
-            node.gatetype = gt;
-            node.child1 = c1;
-            node.child2 = c2;
+        function tree = eval_tree(gt, c1, c2)
+            if nargin > 0
+                tree.gatetype = gt;
+                tree.child1 = c1;
+            end
+            if nargin > 2
+                tree.child2 = c2;
+            end
         end
         function f = eval(self, t, m)
             if(self.gatetype == gatetype.AND)
