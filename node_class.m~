@@ -13,13 +13,13 @@ classdef node_class
         end
         function f = eval(self, t, m)
             if(self.gatetype == gatetype.AND)
-                f = and(eval(self.child2,t,m), eval(self.child1,t,m));
+                f = and(eval(self.child2,v), eval(self.child1,v));
             elseif(self.gatetype == gatetype.OR)
-                f = or(eval(self.child2,t,m), eval(self.child1,t,m));
+                f = or(eval(self.child2,v), eval(self.child1,v));
             elseif(self.gatetype == gatetype.NOT)
-                f = not(eval(self.child1,t,m));
+                f = not(eval(self.child1,v));
             else
-                f = m(self.child1, t);
+                f = m(t, self.child1);
             end
         end
     end   
