@@ -1,5 +1,5 @@
 classdef gatetype
     enumeration
-        AND, OR, NOT, ID
+        AND, OR, NOT
     end
 end
