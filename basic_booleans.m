@@ -14,15 +14,15 @@ for i=1:NUMNODES
     nodestates(i,1) = [randstate]; %set random starting conditions 
 end 
 
-IDtree1 = id_node(0, 1);
-IDtree2 = id_node(0, 2);
-IDtree3 = id_node(0, 3);
-IDtree4 = id_node(0, 4);
+fetch1 = fetch_node(0, 1);
+fetch2 = fetch_node(0, 2);
+fetch3 = fetch_node(0, 3);
+fetch4 = fetch_node(0, 4);
 
-eval1 = eval_tree(gatetype.NOT, IDtree4);
-eval2 = eval_tree(gatetype.AND, IDtree1, IDtree4);
-eval3 = id_node(0, 1);
-eval4 = eval_tree(gatetype.OR, IDtree3, eval_tree(gatetype.NOT, IDtree2));
+eval1 = eval_tree(gatetype.NOT, fetch4);
+eval2 = eval_tree(gatetype.AND, fetch1, fetch4);
+eval3 = eval_tree(gatetype.ID, fetch1);
+eval4 = eval_tree(gatetype.OR, fetch3, eval_tree(gatetype.NOT, fetch2));
 
 eval_array = [eval1,eval2,eval3,eval4];
 

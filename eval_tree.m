@@ -1,4 +1,4 @@
-classdef eval_tree < matlab.mixin.Heterogenous
+classdef eval_tree
     properties
         gatetype
         child1
@@ -19,8 +19,10 @@ classdef eval_tree < matlab.mixin.Heterogenous
                 f = and(eval(self.child2,t,m), eval(self.child1,t,m));
             elseif(self.gatetype == gatetype.OR)
                 f = or(eval(self.child2,t,m), eval(self.child1,t,m));
-            else
+            elseif(self.gatetype == gatetype.NOT)
                 f = not(eval(self.child1,t,m));
+            else
+                f = eval(self.child1,t,m);
             end
         end
     end   
