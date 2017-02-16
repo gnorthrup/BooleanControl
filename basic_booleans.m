@@ -1,4 +1,4 @@
-%This is supposed to be an implementation of a simple, 4 node, boolean
+%This is an implementation of a simple, 4 node, boolean
 %network
 
 clear all
@@ -14,6 +14,7 @@ for i=1:NUMNODES
     nodestates(i,1) = [randstate]; %set random starting conditions 
 end 
 
+%initialize fetch nodes and eval trees
 fetch1 = fetch_node(0, 1);
 fetch2 = fetch_node(0, 2);
 fetch3 = fetch_node(0, 3);
@@ -26,6 +27,7 @@ eval4 = eval_tree(gatetype.OR, fetch3, eval_tree(gatetype.NOT, fetch2));
 
 eval_array = [eval1,eval2,eval3,eval4];
 
+%populate nodestates according to evaluation rules
 for i=2:NUMSTEPS
     for j=1:NUMNODES
         nodestates(j,i) = eval_array(j).eval(i-1, nodestates);

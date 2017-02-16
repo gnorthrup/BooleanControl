@@ -1,6 +1,6 @@
 classdef fetch_node 
-    %UNTITLED8 Summary of this class goes here
-    %   Detailed explanation goes here
+    %The recursion base for tree evaluation
+    %   Ty Adam for figuring out this implementation
     
     properties
         signal_delay
@@ -8,11 +8,11 @@ classdef fetch_node
     end
     
     methods
-        function leaf = fetch_node(s,n)
+        function leaf = fetch_node(s,n) %constructor
             leaf.signal_delay = s;
             leaf.node = n;
         end
-        function f = eval(self, t, m)
+        function f = eval(self, t, m) %evaluation
              f = m(self.node, t - self.signal_delay);
         end
     end

@@ -8,7 +8,7 @@ classdef eval_tree
         child2
     end
     methods
-        function tree = eval_tree(gt, c1, c2)
+        function tree = eval_tree(gt, c1, c2) %constructor
             if nargin > 0
                 tree.gatetype = gt;
                 tree.child1 = c1;
@@ -17,7 +17,7 @@ classdef eval_tree
                 tree.child2 = c2;
             end
         end
-        function f = eval(self, t, m)
+        function f = eval(self, t, m) %recursive function to resolve logic gates
             if(self.gatetype == gatetype.AND)
                 f = and(eval(self.child2,t,m), eval(self.child1,t,m));
             elseif(self.gatetype == gatetype.OR)
