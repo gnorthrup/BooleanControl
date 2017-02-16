@@ -1,6 +1,15 @@
 # BooleanControl
 A repository designed to work as a MATLAB working directory to model Circadian gene regulation using boolean networks
 
+## Things to Accomplish
+
+- [x] Make a git repository
+- [x] Figure out basic boolean network implementation
+- [x] Add signal delay functionality
+- [ ] Iron out light node difficulties
+- [ ] Implement the model from the paper
+- [ ] Start turning out the lights and seeing what happens
+
 ## Contents
 
 ### Classes
@@ -33,12 +42,3 @@ A repository designed to work as a MATLAB working directory to model Circadian g
 ### Text Files
 * **adamtest.txt**
 	* We can probably delete this.
-
-## Things to Accomplish
-
-- [x] Make a git repository
-- [x] Figure out basic boolean network implementation
-- [x] Add signal delay functionality
-- [ ] Iron out light node difficulties
-- [ ] Implement the model from the paper
-- [ ] Start turning out the lights and seeing what happens
