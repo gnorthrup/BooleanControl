@@ -32,4 +32,4 @@ A repository designed to work as a MATLAB working directory to model Circadian g
 
 #### Text Files
 * **adamtest.txt**
-	*We can probably delete this.
+	* We can probably delete this.
