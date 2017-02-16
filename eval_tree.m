@@ -1,3 +1,6 @@
+%This file define the evaluation tree class used to evaluate the state of a
+%node at a time step, given an array of node states
+
 classdef eval_tree
     properties
         gatetype
