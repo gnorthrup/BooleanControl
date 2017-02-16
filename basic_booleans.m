@@ -34,3 +34,7 @@ for i=2:NUMSTEPS
     end
 end
 
+disp(nodestates)
+
+%for i=1:NUMNODES
+    
