@@ -4,9 +4,9 @@ clear all
 close all
 
 NUMNODES = 7;
-NUMSTEPS = 200;
-t_dawn = 12;
-t_dusk = 36;
+NUMSTEPS = 100;
+t_dawn = 6;
+t_dusk = 18;
 
 nodestates = zeros(NUMNODES, NUMSTEPS + 1);
 
@@ -19,9 +19,7 @@ nodestates = zeros(NUMNODES, NUMSTEPS + 1);
 %L2
 %L3
 
-t = [1.5, 5.5, 6.5, 0, 7.5, 4, 0, 2.5, 1];
-
-t = t*2;
+t = [
 
 LHYeval = eval_tree(gatetype.AND, fetch_node(t(3),3), fetch_node(t(7),5));
 TOC1eval = eval_tree(gatetype.AND, eval_tree(gatetype.NOT, fetch_node(t(1),1)), fetch_node(t(6),4));
@@ -40,7 +38,7 @@ for i=2:NUMSTEPS
     end
 end
 
-plot_bool(nodestates, 1, 200, 'trying to do a thing', ...
-    {'LHYeval', 'TOC1eval', 'Xeval', 'Yeval', 'L1eval', 'L2eval', 'L3eval'}, [5,6,7])
+plot_bool(nodestates, 75, 100, 'trying to do a thing', ...
+    {'LHYeval', 'TOC1eval', 'Xeval', 'Yeval', 'L1eval', 'L2eval', 'L3eval'})
 
 disp('done')

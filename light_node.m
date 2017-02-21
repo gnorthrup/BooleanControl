@@ -15,8 +15,8 @@ classdef light_node
         
         %eval function with same name so it can be called in same loop
         %block
-        function f = eval(self, t)
-            f = and(self.dawn < mod(t, 24), mod(t,24) < self.dusk);
+        function f = eval(self, t, nodestates)
+            f = and(self.dawn < mod(t, 48), mod(t,48) < self.dusk);
         end
     
     end

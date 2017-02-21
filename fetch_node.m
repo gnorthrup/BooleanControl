@@ -13,7 +13,11 @@ classdef fetch_node
             leaf.node = n;
         end
         function f = eval(self, t, m) %evaluation
-             f = m(self.node, t - self.signal_delay);
+            if t - self.signal_delay >= 1
+                f = m(self.node, t - self.signal_delay);
+            else
+                f = m(self.node, 1);
+            end
         end
     end
     
