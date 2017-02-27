@@ -39,7 +39,7 @@ Yeval = eval_tree(gatetype.AND, eval_tree(gatetype.AND, eval_tree(gatetype.NOT, 
     ,eval_tree(gatetype.NOT, fetch_node(t(5), 2))), eval_tree(gatetype.OR, fetch_node(t(8), 6), fetch_node(t(9),7)));
 L1eval = eval_tree(gatetype.ID, light_node(t_dawn, t_dusk));
 L2eval = eval_tree(gatetype.ID, light_node(t_dawn, t_dusk));
-L3eval = eval_tree(gatetype.ID, light_node(t_dawn, t_dusk))
+L3eval = eval_tree(gatetype.ID, light_node(t_dawn, t_dusk));
 
 
 eval_array = [LHYeval, TOC1eval, Xeval, Yeval, L1eval, L2eval, L3eval];
