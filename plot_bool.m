@@ -2,7 +2,7 @@ function [  ] = plot_bool( nodestates, start, stop, name, nodenames, lightnodes)
 % produces a clean, readible, plot of a boolean model from start to end
     %apply an offset so that each node can be read individually
     offset = .025;
-    nodestates = nodestates(:,start:stop);
+   % nodestates = nodestates(:,start:stop);
     lightstates = nodestates(lightnodes(1),:);
     nodestates(lightnodes,:) = [];
     for i = 1:size(nodestates, 1) / 2
@@ -28,6 +28,9 @@ function [  ] = plot_bool( nodestates, start, stop, name, nodenames, lightnodes)
     title(name);
     legend(nodenames);
     yticks([0 1])
+    xlim([start stop]);
+    xlabel('timestep (half hour)');
+    ylabel('off/on');
     hold off;
 end
 
