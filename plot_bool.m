@@ -1,7 +1,7 @@
 function [  ] = plot_bool( nodestates, start, stop, name, nodenames, lightnodes)
 % produces a clean, readible, plot of a boolean model from start to end
     %apply an offset so that each node can be read individually
-    offset = .05;
+    offset = .025;
     nodestates = nodestates(:,start:stop);
     lightstates = nodestates(lightnodes(1),:);
     nodestates(lightnodes,:) = [];
