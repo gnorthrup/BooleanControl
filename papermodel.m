@@ -5,8 +5,8 @@ close all
 
 NUMNODES = 7;
 NUMSTEPS = 1000;
-t_dawn = 12;
-t_dusk = 36;
+t_on = 24;
+t_off = 24;
 
 nodestates = zeros(NUMNODES, NUMSTEPS + 1);
 
@@ -30,9 +30,9 @@ TOC1eval = eval_tree(gatetype.AND, eval_tree(gatetype.NOT, fetch_node(t(1),1)), 
 Xeval = eval_tree(gatetype.ID, fetch_node(t(2),2));
 Yeval = eval_tree(gatetype.AND, eval_tree(gatetype.AND, eval_tree(gatetype.NOT, fetch_node(t(4),1))...
     ,eval_tree(gatetype.NOT, fetch_node(t(5),2))), eval_tree(gatetype.OR, fetch_node(t(8),6), fetch_node(t(9),7)));
-L1eval = eval_tree(gatetype.ID, light_node(t_dawn, t_dusk));
-L2eval = eval_tree(gatetype.ID, light_node(t_dawn, t_dusk));
-L3eval = eval_tree(gatetype.ID, light_node(t_dawn, t_dusk));
+L1eval = eval_tree(gatetype.ID, light_node(t_on, t_off));
+L2eval = eval_tree(gatetype.ID, light_node(t_on, t_off));
+L3eval = eval_tree(gatetype.ID, light_node(t_on, t_off));
 
 
 eval_array = [LHYeval, TOC1eval, Xeval, Yeval, L1eval, L2eval, L3eval];
