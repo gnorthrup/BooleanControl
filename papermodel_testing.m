@@ -5,10 +5,10 @@ close all
 
 NUMNODES = 7;
 NUMSTEPS = 2000;
-t_on = 0;
-t_off = 48;
-t2_on = 24;
-t2_off = 24;
+t_on = 24;
+t_off = 24;
+t2_on = 40;
+t2_off = 40;
 %t_stop = 1600;
 
 nodestates = zeros(NUMNODES, NUMSTEPS + 1);
@@ -46,7 +46,7 @@ for i=2:NUMSTEPS
     end
 end
 
-plot_bool(nodestates, 1500, 2000, 'Light 1 Off', ...
+plot_bool(nodestates, 1400, 2000, 'L1 12-12, L2&L3 20-20', ...
     {'LHY', 'TOC1', 'X', 'Y', 'Day','Night'}, [5,6,7])
 
 disp('done')
@@ -55,7 +55,7 @@ t1 = 0;
 t2 = 0;
 waszero = false;
 for k=500:NUMSTEPS
-    if nodestates(2,k) == 0
+    if nodestates(1,k) == 0
         waszero = true;
     elseif waszero
         if t1 == 0
