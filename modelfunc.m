@@ -45,7 +45,7 @@ function [ ] = modelfunc(on,off)
     title = sprintf('24hr plot with %d hours day and %d hours dark', t_on/2,...
         t_off/2);
     plot_bool(nodestates, 800, 1000, title, ...
-        {'LHYeval', 'TOC1eval', 'Xeval', 'Yeval', 'Day','Night'}, [5,6,7])
+        {'LHY', 'TOC1', 'X', 'Y', 'Day','Night'}, [5,6,7])
 
 end
 
