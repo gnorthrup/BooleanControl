@@ -5,10 +5,10 @@ close all
 
 NUMNODES = 7;
 NUMSTEPS = 2000;
-t_on = 24;
-t_off = 0;
+t_on = 0;
+t_off = 48;
 t2_on = 24;
-t2_off = 0;
+t2_off = 24;
 %t_stop = 1600;
 
 nodestates = zeros(NUMNODES, NUMSTEPS + 1);
@@ -46,8 +46,8 @@ for i=2:NUMSTEPS
     end
 end
 
-plot_bool(nodestates, 1500, 2000, 'trying to do a thing', ...
-    {'LHYeval', 'TOC1eval', 'Xeval', 'Yeval', 'Day','Night'}, [5,6,7])
+plot_bool(nodestates, 1500, 2000, 'Light 1 Off', ...
+    {'LHY', 'TOC1', 'X', 'Y', 'Day','Night'}, [5,6,7])
 
 disp('done')
 
