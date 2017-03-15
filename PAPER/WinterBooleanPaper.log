@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 MAR 2017 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 MAR 2017 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -523,9 +523,9 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen163
 \Gin@req@width=\dimen164
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
@@ -542,13 +542,51 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count187
 )
+\c@subfigure=\count188
+\c@subtable=\count189
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mwe/mwe.sty
+Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count190
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count191
+\c@Blindtext=\count192
+\c@blind@countparstart=\count193
+\blind@countxx=\count194
+\blindtext@numBlindtext=\count195
+\blind@countyy=\count196
+\c@blindlist=\count197
+\c@blindlistlevel=\count198
+\c@blindlist@level=\count199
+\blind@listitem=\count266
+\c@blind@listcount=\count267
+\c@blind@levelcount=\count268
+\blind@mathformula=\count269
+\blind@Mathformula=\count270
+\c@blind@randomcount=\count271
+\c@blind@randommax=\count272
+\c@blind@pangramcount=\count273
+\c@blind@pangrammax=\count274
+))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count188
+\c@float@type=\count275
 \float@exts=\toks24
 \float@box=\box53
 \@float@everytoks=\toks25
 \@floatcapt=\box54
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip75
@@ -572,7 +610,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count189
+\babel@savecnt=\count276
 \U@D=\dimen172
 )
 \l@canadian = a dialect from \language\l@american 
@@ -686,7 +724,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
@@ -694,47 +732,44 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(./WinterBooleanPaper.aux
-
-LaTeX Warning: Label `tbl:example' multiply defined.
-
-)
+(./WinterBooleanPaper.aux)
 \openout1 = `WinterBooleanPaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 36.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1bch.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 39.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 36.
+. Activating mapping `default' on line 39.
 .................................................
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count190
+\scratchcounter=\count277
 \scratchdimen=\dimen180
 \scratchbox=\box56
-\nofMPsegments=\count191
-\nofMParguments=\count192
+\nofMPsegments=\count278
+\nofMParguments=\count279
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count193
+\MPscratchCnt=\count280
 \MPscratchDim=\dimen181
-\MPnumerator=\count194
-\makeMPintoPDFobject=\count195
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks29
 )
 *geometry* driver: auto-detecting
@@ -771,121 +806,126 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 36.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 39.
 \figrulesep=\skip88
-LaTeX Font Info:    Try loading font information for T1+phv on input line 134.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 137.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 134.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 137.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
-4.
+7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
-4.
+7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
-4.
+7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
-4.
+7.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 134.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 137.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.10008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.00009> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 148.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 137.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 151.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsbch.fd
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 [][]\OMS/cmsy/m/n/7 y \T1/bch/m/n/7 Elec-tronic Sup-ple-men-tary In-for-ma-tion
  (ESI) avail-able:
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 163.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 163.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 163.
 
-Underfull \hbox (badness 1127) in paragraph at lines 160--161
+Underfull \hbox (badness 1127) in paragraph at lines 163--165
 \T1/bch/m/n/9 dif-fer-en-tial equa-tions (ODEs); how-ever, it has been shown
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 <basicbool.jpg, id=1, 602.25pt x 444.66125pt>
 File: basicbool.jpg Graphic file (type jpg)
  <use basicbool.jpg>
-Package pdftex.def Info: basicbool.jpg used on input line 166.
+Package pdftex.def Info: basicbool.jpg used on input line 168.
 (pdftex.def)             Requested size: 154.14606pt x 113.81102pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 175.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
 
-Overfull \hbox (9.24713pt too wide) in paragraph at lines 175--189
+Overfull \hbox (9.24713pt too wide) in paragraph at lines 177--191
 [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+
  []
 
 <header_bar.pdf, id=2, 512.1534pt x 36.135pt>
 File: header_bar.pdf Graphic file (type pdf)
  <use header_bar.pdf>
-Package pdftex.def Info: header_bar.pdf used on input line 199.
+Package pdftex.def Info: header_bar.pdf used on input line 200.
 (pdftex.def)             Requested size: 526.37598pt x 37.14003pt.
 
 
@@ -897,50 +937,193 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <cc-by-nc-sa.png, id=3, 404.51125pt x 141.52875pt>
 File: cc-by-nc-sa.png Graphic file (type png)
  <use cc-by-nc-sa.png>
-Package pdftex.def Info: cc-by-nc-sa.png used on input line 199.
+Package pdftex.def Info: cc-by-nc-sa.png used on input line 200.
 (pdftex.def)             Requested size: 42.86687pt x 15.0pt.
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./header_bar.pdf> <./basicbool.jpg> <./cc-by-nc-sa.png>] (./WinterBooleanPape
-r.bbl)
+ <./header_bar.pdf> <./basicbool.jpg> <./cc-by-nc-sa.png>]
+<network.jpg, id=26, 184.69pt x 362.35374pt>
+File: network.jpg Graphic file (type jpg)
+ <use network.jpg>
+Package pdftex.def Info: network.jpg used on input line 203.
+(pdftex.def)             Requested size: 116.01994pt x 227.62204pt.
+
+Underfull \hbox (badness 1028) in paragraph at lines 213--215
+\T1/bch/m/n/9 For pho-tope-ri-ods to-talling to 24 hours within a rea-son-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+<12hrday.jpg, id=27, 562.1pt x 421.575pt>
+File: 12hrday.jpg Graphic file (type jpg)
+ <use 12hrday.jpg>
+Package pdftex.def Info: 12hrday.jpg used on input line 218.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 218--219
+ [][] 
+ []
+
+<17hrday.jpg, id=28, 562.1pt x 421.575pt>
+File: 17hrday.jpg Graphic file (type jpg)
+ <use 17hrday.jpg>
+Package pdftex.def Info: 17hrday.jpg used on input line 224.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 224--225
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3312) has occurred while \output is active []
+
+
+<18hrday.jpg, id=29, 562.1pt x 421.575pt>
+File: 18hrday.jpg Graphic file (type jpg)
+ <use 18hrday.jpg>
+Package pdftex.def Info: 18hrday.jpg used on input line 230.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 230--231
+ [][] 
+ []
+
+<24hrdayJPG.jpg, id=30, 562.1pt x 421.575pt>
+File: 24hrdayJPG.jpg Graphic file (type jpg)
+ <use 24hrdayJPG.jpg>
+Package pdftex.def Info: 24hrdayJPG.jpg used on input line 236.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png used on input line 244.
+(pdftex.def)             Requested size: 42.86687pt x 15.0pt.
+ [2 <./network.jpg> <./12hrday.jpg> <./17hrday.jpg> <./18hrday.jpg> <./24hrdayJ
+PG.jpg>] <28d-20n.jpg, id=36, 562.1pt x 421.575pt>
+File: 28d-20n.jpg Graphic file (type jpg)
+
+<use 28d-20n.jpg>
+Package pdftex.def Info: 28d-20n.jpg used on input line 249.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 249--250
+ [][] 
+ []
+
+<42d-6n.jpg, id=37, 562.1pt x 421.575pt>
+File: 42d-6n.jpg Graphic file (type jpg)
+ <use 42d-6n.jpg>
+Package pdftex.def Info: 42d-6n.jpg used on input line 255.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 255--256
+ [][] 
+ []
+
+<NoL1.jpg, id=38, 562.1pt x 421.575pt>
+File: NoL1.jpg Graphic file (type jpg)
+ <use NoL1.jpg>
+Package pdftex.def Info: NoL1.jpg used on input line 264.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 264--265
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--267
+
+ []
+
+<NoL2L3.jpg, id=39, 562.1pt x 421.575pt>
+File: NoL2L3.jpg Graphic file (type jpg)
+ <use NoL2L3.jpg>
+Package pdftex.def Info: NoL2L3.jpg used on input line 270.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 270--271
+ [][] 
+ []
+
+<async1.jpg, id=40, 562.1pt x 421.575pt>
+File: async1.jpg Graphic file (type jpg)
+ <use async1.jpg>
+Package pdftex.def Info: async1.jpg used on input line 279.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 279--280
+ [][] 
+ []
+
+<async2.jpg, id=41, 562.1pt x 421.575pt>
+File: async2.jpg Graphic file (type jpg)
+ <use async2.jpg>
+Package pdftex.def Info: async2.jpg used on input line 285.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 285--286
+ [][] 
+ []
+
+<async3.jpg, id=42, 562.1pt x 421.575pt>
+File: async3.jpg Graphic file (type jpg)
+ <use async3.jpg>
+Package pdftex.def Info: async3.jpg used on input line 292.
+(pdftex.def)             Requested size: 264.47008pt x 85.35559pt.
+
+Overfull \hbox (9.24884pt too wide) in paragraph at lines 292--293
+ [][] 
+ []
+
+File: cc-by-nc-sa.png Graphic file (type png)
+<use cc-by-nc-sa.png>
+Package pdftex.def Info: cc-by-nc-sa.png used on input line 305.
+(pdftex.def)             Requested size: 42.86687pt x 15.0pt.
+ [3 <./28d-20n.jpg> <./42d-6n.jpg> <./NoL1.jpg> <./NoL2L3.jpg> <./async1.jpg> <
+./async2.jpg> <./async3.jpg>] (./WinterBooleanPaper.bbl)
 
 AED: lastpage setting LastPage
 - LAST -
-Extra skip:7.07324pt
-Left:205.21237pt/1.88548pt
-Right:198.14362pt/1.881pt
-Output:206.04051pt
+Extra skip:34.43071pt
+Left:328.39978pt/0.12599pt
+Right:292.55608pt/1.53899pt
+Output:329.1373pt
 File: cc-by-nc-sa.png Graphic file (type png)
 <use cc-by-nc-sa.png>
-Package pdftex.def Info: cc-by-nc-sa.png used on input line 233.
+Package pdftex.def Info: cc-by-nc-sa.png used on input line 330.
 (pdftex.def)             Requested size: 42.86687pt x 15.0pt.
- [2] (./WinterBooleanPaper.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [4] (./WinterBooleanPaper.aux) ) 
 Here is how much of TeX's memory you used:
- 15453 strings out of 493014
- 280531 string characters out of 6133351
- 364194 words of memory out of 5000000
- 18758 multiletter control sequences out of 15000+600000
- 73949 words of font info for 103 fonts, out of 8000000 for 9000
+ 15973 strings out of 493014
+ 288065 string characters out of 6133351
+ 474869 words of memory out of 5000000
+ 19232 multiletter control sequences out of 15000+600000
+ 81907 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,14n,44p,10433b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on WinterBooleanPaper.pdf (2 pages, 1128777 bytes).
+ 42i,14n,44p,10433b,408s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/
+dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/bitstrea/char
+ter/bchb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/bitstrea/charter
+/bchr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/bitstrea/charter/bc
+hri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on WinterBooleanPaper.pdf (4 pages, 1550267 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
